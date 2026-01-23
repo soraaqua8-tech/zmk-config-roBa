@@ -92,8 +92,8 @@
         FUNCTION {
             bindings = <
 &trans         &trans     &trans   &trans             &trans                               &kp PLUS        &kp PIPE              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&kp SEMICOLON  &kp COLON  &kp SQT  &kp DOUBLE_QUOTES  &trans     &trans      &kp ASTERISK  &kp MINUS       &kp SLASH             &kp LBRC              &kp RBRC               &trans
-&trans         &trans     &trans   &trans             &kp TILDE  &trans      &kp SLASH     &kp UNDERSCORE  &kp NON_US_BACKSLASH  &kp LBKT              &kp RBKT               &trans
+&kp SEMICOLON  &kp COLON  &kp SQT  &kp DOUBLE_QUOTES  &trans     &trans      &kp ASTERISK  &kp MINUS       &kp SLASH             &kp LBRC              &kp RBRC               &kp EXCLAMATION
+&trans         &trans     &trans   &trans             &kp TILDE  &trans      &kp SLASH     &kp UNDERSCORE  &kp NON_US_BACKSLASH  &kp LBKT              &kp RBKT               &kp QUESTION
 &trans         &trans     &trans   &trans             &trans     &trans      &trans        &trans                                                                             &trans
             >;
         };
