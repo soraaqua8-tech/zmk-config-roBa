@@ -45,12 +45,12 @@ layers:
   - {t: ENTER, h: Sym}
   - {t: DEL, h: System}
   Num:
-  - {t: ▽, type: trans}
+  - ''
   - '7'
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - ''
   - F7
   - F8
   - F9
@@ -60,9 +60,9 @@ layers:
   - '5'
   - '6'
   - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - F4
   - F5
   - F6
@@ -73,8 +73,8 @@ layers:
   - '3'
   - '='
   - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - F1
   - F2
   - F3
@@ -93,35 +93,35 @@ layers:
   - Ctl+Sft+TAB
   - UP
   - Ctl+TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Gui+LEFT
   - LEFT
   - DOWN
   - RIGHT
   - Gui+RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - LSHFT
   - Alt+LEFT
-  - {t: ▽, type: trans}
+  - ''
   - Alt+RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - RSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,40 +133,40 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
-  - {t: ▽, type: trans}
+  - ''
   - '&'
   - '*'
   - (
   - )
-  - {t: ▽, type: trans}
+  - ''
   - '['
   - ']'
   - '&bracket_pair'
-  - {t: ▽, type: trans}
+  - ''
   - '`'
   - $
   - '%'
   - ^
   - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - (
   - )
   - \
-  - {t: ▽, type: trans}
+  - ''
   - '~'
   - '!'
   - '@'
   - '#'
   - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - '{'
   - '}'
   - '|'
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -270,35 +270,35 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
