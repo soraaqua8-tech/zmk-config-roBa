@@ -50,9 +50,9 @@
         NUM {
             display-name = "Num";
             bindings = <
-&trans     &kp N7  &kp N8  &kp N9  &kp N0                              &trans  &kp F7  &kp F8  &kp F9  &kp F12
-&kp MINUS  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans          &trans   &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL  &kp DOT         &trans   &trans  &kp F1  &kp F2  &kp F3  &kp F10
+&none      &kp N7  &kp N8  &kp N9  &kp N0                              &none   &kp F7  &kp F8  &kp F9  &kp F12
+&kp MINUS  &kp N4  &kp N5  &kp N6  &kp PLUS   &none           &none    &none   &kp F4  &kp F5  &kp F6  &kp F11
+&kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL  &kp DOT         &none    &none   &kp F1  &kp F2  &kp F3  &kp F10
 &trans     &trans  &trans  &trans  &trans     &trans          &trans   &trans                          &trans
             >;
         };
@@ -61,9 +61,9 @@
         ARROW {
             display-name = "Arrow";
             bindings = <
-&kp ESC       &kp LC(LS(TAB))  &kp UP    &kp LC(TAB)   &trans                              &trans  &trans  &trans  &trans  &trans
-&kp LG(LEFT)  &kp LEFT         &kp DOWN  &kp RIGHT     &kp LG(RIGHT)  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT     &kp LA(LEFT)     &trans    &kp LA(RIGHT) &trans         &trans       &trans  &trans  &trans  &trans  &trans  &kp RSHFT
+&kp ESC       &kp LC(LS(TAB))  &kp UP    &kp LC(TAB)   &none                               &none   &none   &none   &none   &none 
+&kp LG(LEFT)  &kp LEFT         &kp DOWN  &kp RIGHT     &kp LG(RIGHT)  &none        &none   &none   &none   &none   &none   &none 
+&kp LSHFT     &kp LA(LEFT)     &none     &kp LA(RIGHT) &none          &none        &none   &none   &none   &none   &none   &kp RSHFT
 &trans        &trans           &trans    &trans        &trans         &trans       &kp DEL &trans                          &trans
             >;
 
@@ -74,9 +74,9 @@
         SYM {
             display-name = "Sym";
             bindings = <
-&trans     &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR                          &trans  &kp LBKT  &kp RBKT  &bracket_pair  &trans
-&kp GRAVE  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS   &trans         &trans  &trans  &kp LPAR  &kp RPAR  &kp BSLH  &trans
-&kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp EQUAL  &trans         &trans  &trans  &kp LBRC  &kp RBRC  &kp PIPE  &trans
+&none      &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR                          &none   &kp LBKT  &kp RBKT  &bracket_pair  &none 
+&kp GRAVE  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS   &none          &none   &none   &kp LPAR  &kp RPAR  &kp BSLH  &none 
+&kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp EQUAL  &none          &none   &none   &kp LBRC  &kp RBRC  &kp PIPE  &none 
 &trans     &trans    &trans     &trans     &trans     &trans         &trans  &trans                                &trans
             >;
         };
@@ -107,9 +107,9 @@
         SYSTEM {
             display-name = "System";
             bindings = <
-&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR        &trans        &trans        &trans        &bootloader   &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR_ALL    &trans        &trans        &trans        &trans        &trans  &bootloader  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                     &none   &none   &none   &none   &none 
+&bt BT_CLR        &none         &none         &none         &bootloader   &none        &none   &none   &none   &none   &none   &none 
+&bt BT_CLR_ALL    &none         &none         &none         &none         &none   &bootloader  &none   &none   &none   &none   &none 
 &trans            &trans        &trans        &trans        &trans        &trans       &trans  &trans                          &trans
             >;
         };
