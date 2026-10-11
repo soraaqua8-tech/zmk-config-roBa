@@ -17,6 +17,17 @@
 };
 
 / {
+    macros {
+        // [ ] を入力してカーソルを間に戻す（かなモードなら「」）
+        bracket_pair: bracket_pair {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <30>;
+            tap-ms = <30>;
+            bindings = <&macro_tap &kp LBKT &kp RBKT &kp LEFT>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -63,7 +74,7 @@
         SYM {
             display-name = "Sym";
             bindings = <
-&trans     &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR                          &trans  &kp LBKT  &kp RBKT  &trans    &trans
+&trans     &kp AMPS  &kp STAR   &kp LPAR   &kp RPAR                          &trans  &kp LBKT  &kp RBKT  &bracket_pair  &trans
 &kp GRAVE  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS   &trans         &trans  &trans  &kp LPAR  &kp RPAR  &kp BSLH  &trans
 &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp EQUAL  &trans         &trans  &trans  &kp LBRC  &kp RBRC  &kp PIPE  &trans
 &trans     &trans    &trans     &trans     &trans     &trans         &trans  &trans                                &trans
